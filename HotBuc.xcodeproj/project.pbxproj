@@ -9,21 +9,37 @@
 /* Begin PBXBuildFile section */
 		02BD78F52B2CB834003FF32E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BD78F42B2CB834003FF32E /* AppDelegate.swift */; };
 		02BD78F72B2CB834003FF32E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BD78F62B2CB834003FF32E /* SceneDelegate.swift */; };
-		02BD78F92B2CB834003FF32E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BD78F82B2CB834003FF32E /* ViewController.swift */; };
-		02BD78FC2B2CB834003FF32E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02BD78FA2B2CB834003FF32E /* Main.storyboard */; };
 		02BD78FE2B2CB83A003FF32E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02BD78FD2B2CB83A003FF32E /* Assets.xcassets */; };
 		02BD79012B2CB83A003FF32E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02BD78FF2B2CB83A003FF32E /* LaunchScreen.storyboard */; };
+		02BD790A2B2D768E003FF32E /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BD79092B2D768E003FF32E /* Coordinator.swift */; };
+		02BD790C2B2D77BC003FF32E /* BaceCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BD790B2B2D77BC003FF32E /* BaceCoordinator.swift */; };
+		02BD790E2B2D7887003FF32E /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BD790D2B2D7887003FF32E /* AppCoordinator.swift */; };
+		02BD79122B2D7E4F003FF32E /* HotelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BD79112B2D7E4F003FF32E /* HotelViewController.swift */; };
+		02BD79142B2D7EC7003FF32E /* RoomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BD79132B2D7EC7003FF32E /* RoomsViewController.swift */; };
+		02BD79162B2D7F16003FF32E /* BookingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BD79152B2D7F16003FF32E /* BookingViewController.swift */; };
+		02BD79182B2D7F99003FF32E /* PaidForViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BD79172B2D7F99003FF32E /* PaidForViewController.swift */; };
+		02BD791A2B2D819C003FF32E /* HotelViewControllerCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BD79192B2D819C003FF32E /* HotelViewControllerCoordinator.swift */; };
+		02BD791E2B2DD3F5003FF32E /* RoomsViewControllerCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BD791D2B2DD3F5003FF32E /* RoomsViewControllerCoordinator.swift */; };
+		02BD79202B2DD4AA003FF32E /* BookingViewControllerCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BD791F2B2DD4AA003FF32E /* BookingViewControllerCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		02BD78F12B2CB834003FF32E /* HotBuc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotBuc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02BD78F42B2CB834003FF32E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02BD78F62B2CB834003FF32E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		02BD78F82B2CB834003FF32E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		02BD78FB2B2CB834003FF32E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		02BD78FD2B2CB83A003FF32E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02BD79002B2CB83A003FF32E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02BD79022B2CB83A003FF32E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02BD79092B2D768E003FF32E /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		02BD790B2B2D77BC003FF32E /* BaceCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaceCoordinator.swift; sourceTree = "<group>"; };
+		02BD790D2B2D7887003FF32E /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		02BD79112B2D7E4F003FF32E /* HotelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelViewController.swift; sourceTree = "<group>"; };
+		02BD79132B2D7EC7003FF32E /* RoomsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsViewController.swift; sourceTree = "<group>"; };
+		02BD79152B2D7F16003FF32E /* BookingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingViewController.swift; sourceTree = "<group>"; };
+		02BD79172B2D7F99003FF32E /* PaidForViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaidForViewController.swift; sourceTree = "<group>"; };
+		02BD79192B2D819C003FF32E /* HotelViewControllerCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelViewControllerCoordinator.swift; sourceTree = "<group>"; };
+		02BD791D2B2DD3F5003FF32E /* RoomsViewControllerCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsViewControllerCoordinator.swift; sourceTree = "<group>"; };
+		02BD791F2B2DD4AA003FF32E /* BookingViewControllerCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingViewControllerCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +72,63 @@
 		02BD78F32B2CB834003FF32E /* HotBuc */ = {
 			isa = PBXGroup;
 			children = (
-				02BD78F42B2CB834003FF32E /* AppDelegate.swift */,
-				02BD78F62B2CB834003FF32E /* SceneDelegate.swift */,
-				02BD78F82B2CB834003FF32E /* ViewController.swift */,
-				02BD78FA2B2CB834003FF32E /* Main.storyboard */,
+				02BD791C2B2D88FD003FF32E /* Application */,
+				02BD79102B2D7E15003FF32E /* Models */,
+				02BD790F2B2D79B8003FF32E /* Views */,
+				02BD79082B2D7674003FF32E /* Coordinators */,
 				02BD78FD2B2CB83A003FF32E /* Assets.xcassets */,
 				02BD78FF2B2CB83A003FF32E /* LaunchScreen.storyboard */,
 				02BD79022B2CB83A003FF32E /* Info.plist */,
 			);
 			path = HotBuc;
+			sourceTree = "<group>";
+		};
+		02BD79082B2D7674003FF32E /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				02BD791B2B2D8321003FF32E /* Protocols */,
+				02BD790B2B2D77BC003FF32E /* BaceCoordinator.swift */,
+				02BD790D2B2D7887003FF32E /* AppCoordinator.swift */,
+				02BD79192B2D819C003FF32E /* HotelViewControllerCoordinator.swift */,
+				02BD791D2B2DD3F5003FF32E /* RoomsViewControllerCoordinator.swift */,
+				02BD791F2B2DD4AA003FF32E /* BookingViewControllerCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		02BD790F2B2D79B8003FF32E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				02BD79112B2D7E4F003FF32E /* HotelViewController.swift */,
+				02BD79132B2D7EC7003FF32E /* RoomsViewController.swift */,
+				02BD79152B2D7F16003FF32E /* BookingViewController.swift */,
+				02BD79172B2D7F99003FF32E /* PaidForViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		02BD79102B2D7E15003FF32E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		02BD791B2B2D8321003FF32E /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				02BD79092B2D768E003FF32E /* Coordinator.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		02BD791C2B2D88FD003FF32E /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				02BD78F42B2CB834003FF32E /* AppDelegate.swift */,
+				02BD78F62B2CB834003FF32E /* SceneDelegate.swift */,
+			);
+			path = Application;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +191,6 @@
 			files = (
 				02BD79012B2CB83A003FF32E /* LaunchScreen.storyboard in Resources */,
 				02BD78FE2B2CB83A003FF32E /* Assets.xcassets in Resources */,
-				02BD78FC2B2CB834003FF32E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +201,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02BD78F92B2CB834003FF32E /* ViewController.swift in Sources */,
+				02BD790E2B2D7887003FF32E /* AppCoordinator.swift in Sources */,
+				02BD790A2B2D768E003FF32E /* Coordinator.swift in Sources */,
+				02BD79122B2D7E4F003FF32E /* HotelViewController.swift in Sources */,
+				02BD79142B2D7EC7003FF32E /* RoomsViewController.swift in Sources */,
+				02BD79182B2D7F99003FF32E /* PaidForViewController.swift in Sources */,
+				02BD79202B2DD4AA003FF32E /* BookingViewControllerCoordinator.swift in Sources */,
+				02BD79162B2D7F16003FF32E /* BookingViewController.swift in Sources */,
+				02BD791A2B2D819C003FF32E /* HotelViewControllerCoordinator.swift in Sources */,
 				02BD78F52B2CB834003FF32E /* AppDelegate.swift in Sources */,
 				02BD78F72B2CB834003FF32E /* SceneDelegate.swift in Sources */,
+				02BD790C2B2D77BC003FF32E /* BaceCoordinator.swift in Sources */,
+				02BD791E2B2DD3F5003FF32E /* RoomsViewControllerCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		02BD78FA2B2CB834003FF32E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				02BD78FB2B2CB834003FF32E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		02BD78FF2B2CB83A003FF32E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,7 +361,6 @@
 				INFOPLIST_FILE = HotBuc/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -325,7 +388,6 @@
 				INFOPLIST_FILE = HotBuc/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

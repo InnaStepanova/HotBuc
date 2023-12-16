@@ -5,4 +5,12 @@
 //  Created by Лаванда on 16.12.2023.
 //
 
-import Foundation
+import UIKit
+
+class PaidForViewController: UIViewController {
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+    }
+}
